@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom' //para renderizar elementos
 import React from 'react'//para usar o JSX
 
 import Primeiro from './components/basics/Primeiro'
-
+import ComParametreo from './components/basics/ComParametro'
 
 
 /*Pega o elemnto do html (index.html) e adiciona o 
@@ -17,7 +17,8 @@ const tag = <strong>Olá React</strong>
 ReactDOM.render(
     //isso eh renderizado gracas ao JSX que converte via React para mostrar em tela
     <div>
-       <Primeiro></Primeiro>       
+       <Primeiro></Primeiro>
+       <ComParametreo></ComParametreo>       
     </div>,
     document.getElementById('root')
 )
